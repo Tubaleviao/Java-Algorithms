@@ -6,7 +6,7 @@ public class Inertial{
 		int res = 1;
 		// sort array
 		Arrays.sort(arr); // implement your own sort
-		int max= arr[arr.length-1]; // {2,12,12,4,6,8,11} {2,4,6,8,11,12,12}
+		int max= arr[arr.length-1]; // {2,12,12,4,6,8,11}
 		int qtdOdds = 0;
 		if(max%2 != 0){
 			res = 0;
