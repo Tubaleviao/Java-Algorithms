@@ -3,34 +3,11 @@
 public class Execute{
 	public static void main(String[] args){
 		
-		// madhav array
-		madhav();
-
+		//primeCount();
+		//madhav();
+		inertial();
+		
 		/*
-		
-		int[] x7 = {12, 11, 4, 9, 2, 3, 10};
-		int[] x8 = {11, 4, 20, 9, 2, 8};
-		int[] x9 = {1};
-		int[] x10 = {2};
-		int[] x11 = {1,2,3,4};
-		int[] x12 = {1,1,1,1,1,1,2};
-		int[] x13 = {2,12,4,6,8,11};
-		int[] x14 = {2,12,12,4,6,8,11};
-		int[] x15 = {-2,-4,-6,-8,-11};
-		int[] x16 = {2,3,5,7};
-		Three third = new Three();
-		
-		System.out.println(third.isInertial(x7)); // 0
-		System.out.println(third.isInertial(x8)); // 1
-		System.out.println(third.isInertial(x9)); // 0
-		System.out.println(third.isInertial(x10)); // 0
-		System.out.println(third.isInertial(x11)); // 0
-		System.out.println(third.isInertial(x12)); // 1
-		System.out.println(third.isInertial(x13)); // 1
-		System.out.println(third.isInertial(x14)); // 1
-		System.out.println(third.isInertial(x15)); // 0
-		System.out.println(third.isInertial(x16));// 0
-		
 
 		Four fourth = new Four();
 		int[] i = {11,5,4,20};
@@ -61,6 +38,31 @@ public class Execute{
 		*/
 	}
 
+	public static void inertial(){
+
+		Inertial test = new Inertial();
+
+		int[] x1 = {1};
+		int[] x2 = {2};
+		int[] x3 = {1,2,3,4};
+		int[] x4 = {1,1,1,1,1,1,2};
+		int[] x5 = {2,12,4,6,8,11};
+		int[] x6 = {2,12,12,4,6,8,11};
+		int[] x7 = {-2,-4,-6,-8,-11};
+		int[] x8 = {2,3,5,7};
+		int[] x9 = {2,4,6,8,10};
+		
+		System.out.println(test.isInertial(x1));
+		System.out.println(test.isInertial(x2));
+		System.out.println(test.isInertial(x3));
+		System.out.println(test.isInertial(x4));
+		System.out.println(test.isInertial(x5));
+		System.out.println(test.isInertial(x6));
+		System.out.println(test.isInertial(x7));
+		System.out.println(test.isInertial(x8));
+		System.out.println(test.isInertial(x9));
+	}
+
 	public static void madhav(){
 		Madhav test = new Madhav();
 		int[] x1 = {2,1,1};
@@ -81,6 +83,9 @@ public class Execute{
 
 	public static void primeCount(){
 		PrimeCount test = new PrimeCount();
+		System.out.println(test.primeCount(10,30));
+		System.out.println(test.primeCount(11,29));
+		System.out.println(test.primeCount(20,22));
 		System.out.println(test.primeCount(1,1));
 		System.out.println(test.primeCount(5,5));
 		System.out.println(test.primeCount(6,2));

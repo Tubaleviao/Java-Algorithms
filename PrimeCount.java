@@ -1,7 +1,4 @@
 public class PrimeCount{
-	public static void main(String[] args){
-		
-	}
 
 	static int primeCount(int start, int end){
 		int total = 0;
