@@ -5,37 +5,53 @@ public class Execute{
 		
 		//primeCount();
 		//madhav();
-		inertial();
-		
-		/*
+		//inertial();
+		//square();
+		//porcupine();
+		//guthrie();
+		stanton();
 
-		Four fourth = new Four();
-		int[] i = {11,5,4,20};
-		System.out.println(fourth.countSquarePairs(i));
-		int[] j = {9,0,2,-5,7};
-		System.out.println(fourth.countSquarePairs(j));
-		int[] k = {9};
-		System.out.println(fourth.countSquarePairs(k));
+	}
 
-		
+	public static void stanton(){
+		StantonMeasure test = new StantonMeasure();
+		int[] x1 = {1};
+		int[] x2 = {0};
+		int[] x3 = {3,1,1,4};
+		int[] x4 = {1,3,1,1,3,3,2,3,3,3,4};
+		int[] x5 = {};
+		System.out.println(test.stantonMeasure(x1));
+		System.out.println(test.stantonMeasure(x2));
+		System.out.println(test.stantonMeasure(x3));
+		System.out.println(test.stantonMeasure(x4));
+		System.out.println(test.stantonMeasure(x5));
+	}
 
-		Five fifth = new Five();
-		int a = 140;
-		System.out.println(fifth.findPorcupineNumber(a));
-		//System.out.println(fifth.isPrime(139));
+	public static void guthrie(){
+		GuthrieSequence test = new GuthrieSequence();
+		int[] x1 = {8,4,2,1};
+		int[] x2 = {8,17,4,1};
+		int[] x3 = {8,4,1};
+		int[] x4 = {8,4,2};
+		System.out.println(test.isGuthrieSequence(x1));
+		System.out.println(test.isGuthrieSequence(x2));
+		System.out.println(test.isGuthrieSequence(x3));
+		System.out.println(test.isGuthrieSequence(x4));
+	}
 
-		
+	public static void porcupine(){
+		Porcupine test = new Porcupine();
+		System.out.println(test.findPorcupineNumber(130));
+		System.out.println(test.findPorcupineNumber(200));
+		System.out.println(test.findPorcupineNumber(500));
+	}
 
-		Six sixth = new Six();
-		int[] t1 = {8,4,2,1};
-		System.out.println(sixth.isGuthrieSequence(t1));
-		int[] t2 = {8,17,4,1};
-		System.out.println(sixth.isGuthrieSequence(t2));
-		int[] t3 = {8,4,1};
-		System.out.println(sixth.isGuthrieSequence(t3));
-		int[] t4 = {8,4,2};
-		System.out.println(sixth.isGuthrieSequence(t4));
-		*/
+	public static void square(){
+		Square test = new Square();
+		int[] x1 = {9,0,2,-5,7};
+		int[] x2 = {9};
+		System.out.println(test.countSquarePairs(x1));
+		System.out.println(test.countSquarePairs(x2));
 	}
 
 	public static void inertial(){
