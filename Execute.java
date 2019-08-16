@@ -9,9 +9,22 @@ public class Execute{
 		//square();
 		//porcupine();
 		//guthrie();
-		stanton();
+		//stanton();
+    //sumFactor();
 
 	}
+  
+  public static void sumFactor(){
+    SumFactor test = new SumFactor();
+    int[] x1 = {3,0,2,-5,0};
+    int[] x2 = {9,-3,-3,-1,-1};
+    int[] x3 = {1};
+    int[] x4 = {0,0,0};
+    System.out.println(test.sumFactor(x1));
+    System.out.println(test.sumFactor(x2));
+    System.out.println(test.sumFactor(x3));
+    System.out.println(test.sumFactor(x4));
+  }
 
 	public static void stanton(){
 		StantonMeasure test = new StantonMeasure();
