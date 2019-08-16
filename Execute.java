@@ -11,8 +11,15 @@ public class Execute{
 		//guthrie();
 		//stanton();
     //sumFactor();
+    permutation();
 
 	}
+  
+  public static void permutation(){
+    Permutation test = new Permutation();
+    int[] x1 = {1,5,4,2};
+    System.out.println(test.permutation(x1));
+  }
   
   public static void sumFactor(){
     SumFactor test = new SumFactor();
